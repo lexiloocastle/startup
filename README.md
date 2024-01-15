@@ -36,14 +36,10 @@ When you're planning a game night, or a party where games will be played, it can
         6. see other users lists
         7. add games to their list
         8. chat with other users
-        
-                TO DO ->
-                -
-
 
 **NAME Gamescape**
             1. name implies a large landscape of games and that games can be an escape
-    
-                TO DO ->
-                -create a square logo
-                -create a banner logo
+
+**TO DO**
+        []create a square logo
+        []create a banner logo
