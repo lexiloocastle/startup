@@ -24,21 +24,21 @@ When you're planning a game night, or a party where games will be played, it can
 ## Features
 
 **USERS** 
-        - 1. follow other users
-        - 2. allow other users to follow them
-        - 3. submit new games to the database for review
+        1. follow other users
+        2. allow other users to follow them
+        3. submit new games to the database for review
             -submissions include:
                 -name
                 -picture
                 -star rating
-        - 4. search for a game by name
-        - 5. create list of games played
-        - 6. see other users lists
-        - 7. add games to their list
-        - 8. chat with other users
+        4. search for a game by name
+        5. create list of games played
+        6. see other users lists
+        7. add games to their list
+        8. chat with other users
 
 **NAME Gamescape**
-        - 1. name implies a large landscape of games and that games can be an escape
+        1. name implies a large landscape of games and that games can be an escape
 
 **TO DO**
         - []create a square logo
