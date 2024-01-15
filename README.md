@@ -1,6 +1,10 @@
 # startup
 startup-project
 
+ELEVATOR PITCH
+
+When you're planning a game night, or a party where games will be played, it can sometimes be difficult to choose a game. With Gamescape, you can keep track of the games that your friends and you have already played. This makes it alot easier to choose a familiar game or try out something new if that's your preference. If you've got your eye on a certain game, but aren't sure if it's what you're looking for, you can see which friends have played that game. You'll have someone to ask about the game to get a better idea if it's something you want to invest in. Plus it's just fun to keep track of which games you've played.
+
 HOME PAGE
 
 ![basic home](https://github.com/lexiloocastle/startup/assets/156277323/1ed4ac94-9d8d-45df-9c3a-31f05f2f667c)
@@ -27,6 +31,7 @@ users ->
         -create list of games played
         -see other users lists
         -add games to their list
+        -chat with other users
         
                 TO DO ->
                 -
