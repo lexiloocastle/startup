@@ -23,7 +23,7 @@ When you're planning a game night, or a party where games will be played, it can
 
 ## Features
 
-**users ->** 
+**USERS** 
         1. follow other users
         2. allow other users to follow them
         3. submit new games to the database for review
@@ -41,7 +41,7 @@ When you're planning a game night, or a party where games will be played, it can
                 -
 
 
-**name -> Gamescape**
+**NAME Gamescape**
             1. name implies a large landscape of games and that games can be an escape
     
                 TO DO ->
