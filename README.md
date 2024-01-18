@@ -43,3 +43,12 @@ When you're planning a game night, or a party where games will be played, it can
 **TO DO**
         - []create a square logo
         - []create a banner logo
+
+## Use of Technologies
+        Authentication: Users will create usernames and logins. They will use those to                           login when they use the website/app.
+        Database Data: Names and images of all the games.
+        WebSocket Data: Users will be able to chat with each other
+        HTML: Listing information about games, showing account info
+        CSS: Adding color, graphics
+        JS: Functional buttons and changes to different pages in the website
+        
