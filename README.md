@@ -7,6 +7,11 @@ When you're planning a game night, or a party where games will be played, it can
 
 ## Designs
 
+**Logo**
+![startup logo](https://github.com/lexiloocastle/startup/assets/156277323/980a9a07-b043-40ff-84c0-5b208f6b36fd)
+
+
+
 **HOME PAGE**
 
 ![basic home](https://github.com/lexiloocastle/startup/assets/156277323/1ed4ac94-9d8d-45df-9c3a-31f05f2f667c)
