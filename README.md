@@ -1,4 +1,4 @@
-### Startup
+Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.### Startup
 startup-project
 
 ## ELEVATOR PITCH
