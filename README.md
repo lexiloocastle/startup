@@ -52,6 +52,7 @@ When you're planning a game night, or a party where games will be played, it can
         need to add chat feature placeholder
         work on connections
         work on other_users
+        work on admin page
 
 ## Use of Technologies
         Authentication: Users will create usernames and logins. They will use those to                           login when they use the website/app.
@@ -60,4 +61,9 @@ When you're planning a game night, or a party where games will be played, it can
         HTML: Listing information about games, showing account info
         CSS: Adding color, graphics
         JS: Functional buttons and changes to different pages in the website
+## Note to self
+        Seperate authentication from authorization
+        Set up node.j
+        Set up S3 bucket
+        
         
