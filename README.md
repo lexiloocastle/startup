@@ -46,8 +46,12 @@ When you're planning a game night, or a party where games will be played, it can
         1. name implies a large landscape of games and that games can be an escape
 
 **TO DO**
-        - []create a square logo
+        - [x]create a square logo
         - []create a banner logo
+## HTML 
+        need to add chat feature placeholder
+        work on connections
+        work on other_users
 
 ## Use of Technologies
         Authentication: Users will create usernames and logins. They will use those to                           login when they use the website/app.
