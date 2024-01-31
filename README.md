@@ -65,5 +65,6 @@ When you're planning a game night, or a party where games will be played, it can
         Seperate authentication from authorization
         Set up node.j
         Set up S3 bucket
+        overwriting local with remote - https://www.freecodecamp.org/news/how-to-override-local-files-with-git-pull/
         
         
