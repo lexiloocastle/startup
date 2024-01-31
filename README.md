@@ -1,4 +1,4 @@
-### Startup
+Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.Debug using the browser's dev tools to examine the loading of the HTML on the Network tab, and the HTML in the Elements tab.### Startup
 startup-project
 
 ## ELEVATOR PITCH
@@ -6,6 +6,11 @@ startup-project
 When you're planning a game night, or a party where games will be played, it can sometimes be difficult to choose a game. With Gamescape, you can keep track of the games that your friends and you have already played. This makes it alot easier to choose a familiar game or try out something new if that's your preference. If you've got your eye on a certain game, but aren't sure if it's what you're looking for, you can see which friends have played that game. You'll have someone to ask about the game to get a better idea if it's something you want to invest in. Plus it's just fun to keep track of which games you've played.
 
 ## Designs
+
+**Logo**
+![startup logo](https://github.com/lexiloocastle/startup/assets/156277323/980a9a07-b043-40ff-84c0-5b208f6b36fd)
+
+
 
 **HOME PAGE**
 
