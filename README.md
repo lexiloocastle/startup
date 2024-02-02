@@ -49,13 +49,36 @@ When you're planning a game night, or a party where games will be played, it can
         - [x]create a square logo
         - []create a banner logo
 ## HTML 
-        need to add chat feature placeholder
-        work on connections
-        work on other_users
-        work on admin page
-
+        + 20% HTML pages for each component of your application
+                1. index.html (Home)
+                2. login.html 
+                3. connections.html
+                4. my_account.html
+                5. other_user.html
+                6. submit_game.html
+        + 10% Proper use of HTML tags including BODY, NAV, MAIN, HEADER, FOOTER
+                + used on every html page
+        + 10% Links between pages as necessary
+                + links on neccesary pages as well as on the home page for easy access during developement
+        + 10% Application textual content
+                + titles of games
+                + text on buttons
+                + website name on the top of the home page
+                + menu text 
+                + username placeholder
+        + 10% Placeholder for 3rd party service calls
+                + google maps search of "game stores near you"
+        + 10% Application images
+                + logo on each page and images of games that users can scroll through
+        + 10% Login placeholder, including user name display
+                + login.html, my_account.html
+        + 10% Database data placeholder showing content stored in the database
+                + games/images on index.html, my_account.html (my list), other_user.html (user so and so's list)
+        + 10% WebSocket data placeholder showing where realtime communication will go
+                + chat button on other_user.html
+                
 ## Use of Technologies
-        Authentication: Users will create usernames and logins. They will use those to                           login when they use the website/app.
+        Authentication: Users will create usernames and logins. They will use those to login when they use the website/app.
         Database Data: Names and images of all the games.
         WebSocket Data: Users will be able to chat with each other
         HTML: Listing information about games, showing account info
@@ -66,5 +89,6 @@ When you're planning a game night, or a party where games will be played, it can
         Set up node.j
         Set up S3 bucket
         overwriting local with remote - https://www.freecodecamp.org/news/how-to-override-local-files-with-git-pull/
+        https://wise.com/gb/blog/how-to-get-paid-for-links-to-amazon
         
         
