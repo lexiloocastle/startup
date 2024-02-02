@@ -50,12 +50,12 @@ When you're planning a game night, or a party where games will be played, it can
         - []create a banner logo
 ## HTML 
         + 20% HTML pages for each component of your application
-                1. index.html (Home)
-                2. login.html 
-                3. connections.html
-                4. my_account.html
-                5. other_user.html
-                6. submit_game.html
+                + index.html (Home)
+                + login.html 
+                + connections.html
+                + my_account.html
+                + other_user.html
+                + submit_game.html
         + 10% Proper use of HTML tags including BODY, NAV, MAIN, HEADER, FOOTER
                 + used on every html page
         + 10% Links between pages as necessary
@@ -67,7 +67,7 @@ When you're planning a game night, or a party where games will be played, it can
                 + menu text 
                 + username placeholder
         + 10% Placeholder for 3rd party service calls
-                + google maps search of "game stores near you"
+                + google maps search of "game stores near you" on home page (index.html)
         + 10% Application images
                 + logo on each page and images of games that users can scroll through
         + 10% Login placeholder, including user name display
