@@ -1,0 +1,95 @@
+@font-face
+{
+    font-family: 'square';
+    src: url('~/CS260/startup/fonts/SquareGame.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('~/CS260/startup/fonts/OpenDyslexic-Bold.otf') format('otf');
+        font-weight: bold;
+        font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('~/CS260/startup/fonts/OpenDyslexic-BoldItalic.otf') format('otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('~/CS260/startup/fonts/OpenDyslexic-Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('~/CS260/startup/fonts/OpenDyslexic-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'DyslexicAlta';
+    src: url('~/CS260/startup/fonts/OpenDyslexicAlta-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'DyslexicAlta';
+    src: url('~/CS260/startup/fonts/OpenDyslexicAlta-Bold.otf') format('orf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'DyslexicAlta';
+    src: url('~/CS260/startup/fonts/OpenDyslexicAlta-BoldItalic.otf') format('otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'DyslexicAlta';
+    src: url('~/CS260/startup/fonts/OpenDyslexicAlta-Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'DyslexicMono';
+    src: url('~/CS260/startup/fonts/OpenDyslexicMono-Regular.otf') format ('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Graphica';
+    src: url('~/CS260/startup/fonts/TypoGraphica_demo.otf') format ('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'batman';
+    src: url('~/CS260/startup/fonts/batmfa__.ttf') format ('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

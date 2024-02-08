@@ -1,0 +1,9 @@
+@import "fonts.css";
+/* @import url('fonts.css'); */
+
+h1
+{
+    font-family: "Dislexic";
+    font-weight: normal;
+    font-style: normal;
+}
