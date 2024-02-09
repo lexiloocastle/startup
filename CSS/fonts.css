@@ -33,7 +33,7 @@
 @font-face
 {
     font-family: 'Dyslexic';
-    src: url('~/CS260/startup/fonts/OpenDyslexic-Regular.otf') format('otf');
+    src: url('../fonts/OpenDyslexic-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
