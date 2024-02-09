@@ -1,15 +1,8 @@
 /* @import "fonts.css"; */
-/* @import url('fonts.css'); */
-
-@font-face
-{
-    font-family: 'Dyslexic';
-    src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url("../CSS/fonts.css");
 
 h1
 {
-    font-family: "Dyslexic"
+    font-family: "Dyslexic";
+    font-weight: bold;
 }
