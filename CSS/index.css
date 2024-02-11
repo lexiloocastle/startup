@@ -2,12 +2,14 @@
 @import url("../CSS/fonts.css");
 
 
+/* -------------------Whole Page---------------------- */
 html
 {
     background-color: red;
     background-image: linear-gradient(to bottom right, red, yellow);
 }
 
+/* -------------------Header---------------------- */
 .header-container
 {
     display: flex;
@@ -34,19 +36,23 @@ header h1
     font-size: 8rem;
 }
 
-.game-database {
+/* -------------------Game List---------------------- */
+.game 
+{
     position: relative;
     display: inline-block; /* Makes the container fit the size of the image */
-  }
+}
   
-  .game-database img {
+img.game-img 
+{
     display: block; /* Ensures there's no extra space under the image */
-    width: 100%; /* Optional: makes the image fit the container's width */
+    width: 300px; /* Optional: makes the image fit the container's width */
     height: auto; /* Maintains the aspect ratio of the image */
-  }
+}
   
-  .list-button {
-    position: relative;
+.list-button 
+{
+    position: absolute;
     top: 50%; /* Centers the button vertically */
     left: 50%; /* Centers the button horizontally */
     transform: translate(-50%, -50%); /* Adjusts the button's position to truly center it */
@@ -56,5 +62,7 @@ header h1
     color: #fff; /* Example text color */
     border: none;
     cursor: pointer;
-  }
+}
+
+
   
