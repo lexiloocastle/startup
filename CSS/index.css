@@ -41,6 +41,15 @@ header h1
 {
     position: relative;
     display: inline-block; /* Makes the container fit the size of the image */
+
+}
+
+h2.game-title
+{
+    font-family: "Dyslexic";
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
 }
   
 img.game-img 
@@ -53,12 +62,20 @@ img.game-img
 .list-button 
 {
     position: absolute;
-    top: 50%; /* Centers the button vertically */
-    left: 50%; /* Centers the button horizontally */
-    transform: translate(-50%, -50%); /* Adjusts the button's position to truly center it */
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 0%; Centers the button vertically */
+    bottom: 60%;
+    left: 80%; /* Centers the button horizontally */
+    /* transform: translate(120%, -150%); Adjusts the button's position to truly center it */
     /* Additional styles for the button */
-    padding: 10px 20px;
-    background-color: #f00; /* Example background color */
+    height: 50px;
+    width: 50px;
+    background-color: rgb(124, 116, 116); /* Example background color */
     color: #fff; /* Example text color */
     border: none;
     cursor: pointer;
