@@ -1,0 +1,146 @@
+@import url("../CSS/fonts.css");
+
+div.header-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+/* div.total-header
+{
+    background-color: #007a87; 
+} */
+
+header img 
+{
+    width: 300px;
+    height: auto;
+}
+
+header h1
+{
+    font-family: "Changa";
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-shadow: 5px 5px 0px rgba(63,107,169, 0.5);
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    font-size: 8rem;
+    line-height: 1;
+}
+
+header form
+{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+/* -------------------menu----------------------- */
+.top-menu 
+{
+    width: 100%;
+    background-color: #e54f03;
+    overflow: auto;
+    border-top:10px ridge #007a87;
+    border-bottom:10px ridge #007a87;
+    font-family: "Dyslexic";
+}
+  
+  /* Navbar links */
+  
+.top-menu a , .top-menu input
+{
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+  
+  /* Navbar links on mouse-over */
+.top-menu a:hover 
+{
+    background-color: #007a87;
+}
+  
+  /* Current/active navbar link */
+/* #active-page 
+{
+    background-color: #007a87;
+} */
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) 
+{
+    menu a 
+    {
+      float: none;
+      display: block;
+    }
+}
+
+/* -------------------Search Bars-------------------- */
+/* header form input
+{
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: "Changa";
+    font-size: 1.5rem;
+} */
+
+header form input.gname_enter
+{
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: "Changa";
+    font-size: 1.5rem;
+    border-radius:10px;
+    border: 3px solid #b23a00;
+}
+
+header form input[type=submit], input[type=button]{
+    background-color: #007a87;
+    border: none;
+    color: white;
+    font-family: Changa;
+    font-size: 1.2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+/* --------------------Footer-------------------- */
+
+footer
+{
+    background-color: #b23a00;
+}
+
+footer a
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-family: Changa;
+    font-weight: semi-bold;
+    transform: scaleX(1.25);
+    color: white;
+}

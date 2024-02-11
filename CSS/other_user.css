@@ -34,6 +34,7 @@ header h1
     text-align: center;
     justify-content: center;
     font-size: 8rem;
+    line-height: 1;
 }
 
 header form
@@ -212,9 +213,9 @@ img.game-img
     cursor: pointer;
 }
 
-.list-button:hover
+button.list-button:hover
 {
-    background-color: rgb(50, 25, 25);
+    background-color: #007a87;
 
 }
 
