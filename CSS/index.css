@@ -10,12 +10,15 @@
 } */
 
 /* -------------------Header---------------------- */
-.header-container
+div.header-container
 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 90%;
+    /* background-image: url('~/CS260/startup/photos/landscape_of_games_horizontal.jpg');
+    background-size: cover;
+    background-position: center; */
 }
 
 header img 
@@ -34,6 +37,7 @@ header h1
     text-align: center;
     justify-content: center;
     font-size: 8rem;
+    line-height: 1;
 }
 
 header form
@@ -117,10 +121,11 @@ h2.game-title
     text-shadow: 2px 2px 2px rgb(172, 179, 189);
 }
 
-p.game-database
+div div.game-database
 {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p.game
 {
