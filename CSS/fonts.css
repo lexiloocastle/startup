@@ -314,3 +314,63 @@
     font-weight: 200;
     font-style: italic;
 }
+
+/* ----------------------------------------------------- */
+                    /* Honk */
+@font-face
+{
+    font-family: 'Honk';
+    src: url('../fonts/Honk/static/Honk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----------------------------------------------------- */
+                    /* Orbitron */
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Black.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron/static/Orbitron-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -45,13 +45,12 @@ header form
 /* -------------------menu----------------------- */
 .top-menu 
 {
-    font-family: "Dyslexic";
     width: 100%;
     background-color: #e54f03;
     overflow: auto;
     border-top:10px ridge #007a87;
     border-bottom:10px ridge #007a87;
-    
+    font-family: "Dyslexic";
 }
   
   /* Navbar links */
@@ -66,7 +65,6 @@ header form
     color: white;
     text-decoration: none;
     font-size: 17px;
-   
 }
   
   /* Navbar links on mouse-over */
@@ -94,16 +92,32 @@ header form
 /* -------------------Search Bars-------------------- */
 header form input
 {
-    height: 35px;
+    height: 30px;
     width: 300px;
     text-align: center;
-    font-family: Changa;
+    font-family: "Changa";
     font-size: 1.5rem;
-    border-radius:10px;
-    border: 3px solid #b23a00;
 }
 
 /* -------------------Game List---------------------- */
+
+h1.my-list-title
+{
+    display: flex;
+    justify-content: center;
+    font-family: "Changa";
+    font-size: 3rem;
+    /* text-align: center; */
+    line-height: 1;
+    background-color: #007a87;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    transform: scaleX(1.5);
+    font-weight: normal;
+    height: relative;
+}
+
 p.game
 {
     display: flex;
@@ -131,6 +145,7 @@ h2.game-title
     /* background-color: rgb(182, 209, 209); */
     border-radius: 10px;
     text-shadow: 2px 2px 2px rgb(172, 179, 189);
+    line-height: 1;
 }
   
 img.game-img 
@@ -141,24 +156,25 @@ img.game-img
     object-fit: cover;
     padding: 10px;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 
 
 .list-button 
 {
-    position: absolute;
-    font-size: 3rem;
+    position: relative;
+    font-family: Changa;
+    font-size: 1.5rem;
     border-radius: 10px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     /* top: 0%; Centers the button vertically */
-    bottom: 66%;
-    left: 71%; /* Centers the button horizontally */
-    height: 50px;
-    width: 50px;
+    bottom: 50%;
+    left: 30px; /* Centers the button horizontally */
+    height: 40px;
+    width: 260px;
     background-color: #01a8ba; /* Example background color */
     opacity: .9;
     color: #fff; /* Example text color */
