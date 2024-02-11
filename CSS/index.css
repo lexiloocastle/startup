@@ -36,12 +36,34 @@ header h1
     font-size: 8rem;
 }
 
+header form
+{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+header nav
+{
+    
+}
+
 /* -------------------Game List---------------------- */
+p.game
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .game 
 {
     position: relative;
     display: inline-block; /* Makes the container fit the size of the image */
-
+    margin: 30px;
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 h2.game-title
@@ -50,6 +72,8 @@ h2.game-title
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
 }
   
 img.game-img 
@@ -58,7 +82,7 @@ img.game-img
     width: 300px; /* Optional: makes the image fit the container's width */
     height: auto; /* Maintains the aspect ratio of the image */
 }
-  
+
 .list-button 
 {
     position: absolute;
@@ -70,15 +94,20 @@ img.game-img
     align-items: center;
     /* top: 0%; Centers the button vertically */
     bottom: 60%;
-    left: 80%; /* Centers the button horizontally */
-    /* transform: translate(120%, -150%); Adjusts the button's position to truly center it */
-    /* Additional styles for the button */
+    left: 75%; /* Centers the button horizontally */
     height: 50px;
     width: 50px;
     background-color: rgb(124, 116, 116); /* Example background color */
+    opacity: .9;
     color: #fff; /* Example text color */
     border: none;
     cursor: pointer;
+}
+
+.list-button:hover
+{
+    background-color: rgb(50, 25, 25);
+
 }
 
 
