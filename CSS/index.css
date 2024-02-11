@@ -104,6 +104,24 @@ header form input
 }
 
 /* -------------------Game List---------------------- */
+h2.game-title
+{
+    font-family: "Dyslexic";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: .5;
+    text-align: center;
+    color:black;
+    /* background-color: rgb(182, 209, 209); */
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(172, 179, 189);
+}
+
+p.game-database
+{
+    display: grid;
+    place-items: center;
+}
 p.game
 {
     display: flex;
@@ -121,18 +139,13 @@ p.game
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgb(172, 179, 189);
 }
-
-h2.game-title
+ 
+div.game-display 
 {
-    font-family: "Dyslexic";
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-    /* background-color: rgb(182, 209, 209); */
-    border-radius: 10px;
-    text-shadow: 2px 2px 2px rgb(172, 179, 189);
+    position: relative; /* Establishes a positioning context */
+    display: inline-block; /* Adjusts the container size to fit the image */
 }
-  
+
 img.game-img 
 {
     /* display: block; Ensures there's no extra space under the image */
@@ -144,8 +157,6 @@ img.game-img
     margin-bottom: 15px;
 }
 
-
-
 .list-button 
 {
     position: absolute;
@@ -155,8 +166,8 @@ img.game-img
     justify-content: center;
     align-items: center;
     /* top: 0%; Centers the button vertically */
-    bottom: 66%;
-    left: 71%; /* Centers the button horizontally */
+    bottom: 78.5%;
+    left: 78%; /* Centers the button horizontally */
     height: 50px;
     width: 50px;
     background-color: #01a8ba; /* Example background color */
