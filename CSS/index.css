@@ -3,11 +3,11 @@
 
 
 /* -------------------Whole Page---------------------- */
-html
+/* html
 {
     background-color: red;
     background-image: linear-gradient(to bottom right, red, yellow);
-}
+} */
 
 /* -------------------Header---------------------- */
 .header-container
@@ -46,15 +46,20 @@ header form
 .top-menu 
 {
     width: 100%;
-    background-color: #555;
+    background-color: #e54f03;
     overflow: auto;
+    border-top:10px ridge #007a87;
+    border-bottom:10px ridge #007a87;
 }
   
   /* Navbar links */
+  
 .top-menu a 
 {
     float: left;
+    margin-left: 10px;
     text-align: center;
+    justify-content: center;
     padding: 12px;
     color: white;
     text-decoration: none;
@@ -64,23 +69,33 @@ header form
   /* Navbar links on mouse-over */
 .top-menu a:hover 
 {
-    background-color: #000;
+    background-color: #007a87;
 }
   
   /* Current/active navbar link */
-.active-page
+/* #active-page 
 {
-    background-color: #04AA6D;
-}
+    background-color: #007a87;
+} */
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) 
 {
-    .top-menu a 
+    menu a 
     {
       float: none;
       display: block;
     }
+}
+
+/* -------------------Search Bars-------------------- */
+header form input
+{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    font-family: Changa;
+    font-size: 1.5rem;
 }
 
 /* -------------------Game List---------------------- */
@@ -96,9 +111,10 @@ p.game
     position: relative;
     display: inline-block; /* Makes the container fit the size of the image */
     margin: 30px;
-    background-color: blue;
+    background-color: #fec82b;
     padding: 10px 30px;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(172, 179, 189);
 }
 
 h2.game-title
@@ -107,32 +123,38 @@ h2.game-title
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    background-color: aqua;
+    /* background-color: rgb(182, 209, 209); */
     border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(172, 179, 189);
 }
   
 img.game-img 
 {
-    display: block; /* Ensures there's no extra space under the image */
+    /* display: block; Ensures there's no extra space under the image */
     width: 300px; /* Optional: makes the image fit the container's width */
-    height: auto; /* Maintains the aspect ratio of the image */
+    height: 300px; /* Maintains the aspect ratio of the image */
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
+
+
 
 .list-button 
 {
     position: absolute;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 3rem;
     border-radius: 10px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     /* top: 0%; Centers the button vertically */
-    bottom: 60%;
-    left: 75%; /* Centers the button horizontally */
+    bottom: 66%;
+    left: 71%; /* Centers the button horizontally */
     height: 50px;
     width: 50px;
-    background-color: rgb(124, 116, 116); /* Example background color */
+    background-color: #01a8ba; /* Example background color */
     opacity: .9;
     color: #fff; /* Example text color */
     border: none;
@@ -144,6 +166,27 @@ img.game-img
     background-color: rgb(50, 25, 25);
 
 }
+
+/* --------------------Footer-------------------- */
+
+footer
+{
+    background-color: #b23a00;
+}
+
+footer a
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-family: Changa;
+    font-weight: semi-bold;
+    transform: scaleX(1.25);
+    color: white;
+}
+
+
 
 
   
