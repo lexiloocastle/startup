@@ -1,13 +1,5 @@
-/* @import "fonts.css"; */
+
 @import url("../CSS/fonts.css");
-
-
-/* -------------------Whole Page---------------------- */
-/* html
-{
-    background-color: red;
-    background-image: linear-gradient(to bottom right, red, yellow);
-} */
 
 /* -------------------Header---------------------- */
 div.header-container
@@ -54,7 +46,7 @@ header form
     font-family: "Dyslexic";
 }
   
-  /* Navbar links */
+/* ----Navbar links---- */
   
 .top-menu a , .top-menu input
 {
@@ -81,19 +73,11 @@ header form
     
 }
   
-  /* Navbar links on mouse-over */
 .top-menu a:hover 
 {
     background-color: #007a87;
 }
   
-  /* Current/active navbar link */
-/* #active-page 
-{
-    background-color: #007a87;
-} */
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) 
 {
     menu a 
@@ -102,10 +86,6 @@ header form
       display: block;
     }
 }
-
-
-
-
 
 /* -------------------username title-------------------- */
 div h2.username
@@ -119,10 +99,8 @@ div h2.username
     text-align: center; 
     line-height: .5;
     margin-top: 20px;
-    /* background-color: #007a87; */
     padding: 20px;
     border-radius: 10px;
-    /* transform: scaleX(1.5); */
     font-weight: normal;
     height: relative;
 }
@@ -140,10 +118,8 @@ h1.my-list-title
     font-size: 2.5rem;
     text-align: center; 
     line-height: 1;
-    /* background-color: #007a87; */
     padding: 20px;
     border-radius: 10px;
-    /* transform: scaleX(1.5); */
     font-weight: normal;
     height: relative; 
     margin-bottom: 5px;
@@ -159,7 +135,7 @@ div div.my-list
 .game 
 {
     position: relative;
-    display: inline-block; /* Makes the container fit the size of the image */
+    display: inline-block; 
     margin: 30px;
     background-color: #fec82b;
     padding: 10px 30px;
@@ -173,7 +149,6 @@ h2.game-title
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    /* background-color: rgb(182, 209, 209); */
     border-radius: 10px;
     text-shadow: 2px 2px px rgb(172, 179, 189);
     line-height: 1;
@@ -201,14 +176,13 @@ img.game-img
     display: flex;
     justify-content: center;
     align-items: center;
-    /* top: 0%; Centers the button vertically */
     bottom: 50%;
-    left: 30px; /* Centers the button horizontally */
+    left: 30px; 
     height: 40px;
     width: 260px;
-    background-color: #01a8ba; /* Example background color */
+    background-color: #01a8ba;
     opacity: .9;
-    color: #fff; /* Example text color */
+    color: #fff;
     border: none;
     cursor: pointer;
 }

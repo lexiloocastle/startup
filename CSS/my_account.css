@@ -47,7 +47,7 @@ header form
     font-family: "Dyslexic";
 }
   
-  /* Navbar links */
+/* ----Navbar links---- */
   
 .top-menu a , .top-menu input
 {
@@ -73,8 +73,7 @@ header form
     font-size: 1.5rem;
     
 }
-  
-  /* Navbar links on mouse-over */
+ 
 .top-menu a:hover 
 {
     background-color: #007a87;
