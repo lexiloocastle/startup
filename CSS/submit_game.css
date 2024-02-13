@@ -66,21 +66,11 @@ header form
     font-size: 17px;
 }
 
-
-  
-  /* Navbar links on mouse-over */
 .top-menu a:hover 
 {
     background-color: #007a87;
 }
   
-  /* Current/active navbar link */
-/* #active-page 
-{
-    background-color: #007a87;
-} */
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) 
 {
     menu a 
@@ -91,14 +81,6 @@ header form
 }
 
 /* -------------------Search Bars-------------------- */
-/* header form input
-{
-    height: 35px;
-    width: 300px;
-    text-align: center;
-    font-family: "Changa";
-    font-size: 1.5rem;
-} */
 
 header form input.gname_enter
 {
@@ -111,8 +93,9 @@ header form input.gname_enter
     border: 3px solid #b23a00;
 }
 
-header form input[type=submit], input[type=button]{
-    background-color: #007a87;
+header form input[type=submit], input[type=button]
+{
+    background-color: #01a8ba;
     border: none;
     color: white;
     font-family: Changa;
@@ -124,7 +107,13 @@ header form input[type=submit], input[type=button]{
     width: 250px;
     text-align: center;
     vertical-align: middle;
-  }
+}
+
+  header form input[type=button]:hover
+{
+    background-color: #007a87;
+
+}
 
 /* --------------------Footer-------------------- */
 

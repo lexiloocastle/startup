@@ -1,13 +1,6 @@
-/* @import "fonts.css"; */
+
 @import url("../CSS/fonts.css");
 
-
-/* -------------------Whole Page---------------------- */
-/* html
-{
-    background-color: red;
-    background-image: linear-gradient(to bottom right, red, yellow);
-} */
 
 /* -------------------Header---------------------- */
 div.header-container
@@ -87,13 +80,6 @@ header form
     background-color: #007a87;
 }
   
-  /* Current/active navbar link */
-/* #active-page 
-{
-    background-color: #007a87;
-} */
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) 
 {
     menu a 
@@ -119,10 +105,8 @@ div h2.username
     text-align: center; 
     line-height: .5;
     margin-top: 20px;
-    /* background-color: #007a87; */
     padding: 20px;
     border-radius: 10px;
-    /* transform: scaleX(1.5); */
     font-weight: normal;
     height: relative;
 }
@@ -140,10 +124,8 @@ h1.my-list-title
     font-size: 2.5rem;
     text-align: center; 
     line-height: 1;
-    /* background-color: #007a87; */
     padding: 20px;
     border-radius: 10px;
-    /* transform: scaleX(1.5); */
     font-weight: normal;
     height: relative; 
     margin-bottom: 5px;
@@ -159,7 +141,7 @@ div div.my-list
 .game 
 {
     position: relative;
-    display: inline-block; /* Makes the container fit the size of the image */
+    display: inline-block; 
     margin: 30px;
     background-color: #fec82b;
     padding: 10px 30px;
@@ -173,9 +155,8 @@ h2.game-title
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    /* background-color: rgb(182, 209, 209); */
     border-radius: 10px;
-    text-shadow: 2px 2px px rgb(172, 179, 189);
+    text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
     line-height: 1;
 }
   
