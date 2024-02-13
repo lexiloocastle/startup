@@ -80,18 +80,11 @@ header form
     font-size: 1.5rem;
     
 }
-  
-  /* Navbar links on mouse-over */
+
 .top-menu a:hover 
 {
     background-color: #007a87;
 }
-  
-  /* Current/active navbar link */
-/* #active-page 
-{
-    background-color: #007a87;
-} */
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) 
@@ -102,11 +95,6 @@ header form
       display: block;
     }
 }
-
-
-
-
-
 /* -------------------username title-------------------- */
 div h2.username
 {
@@ -125,6 +113,24 @@ div h2.username
     /* transform: scaleX(1.5); */
     font-weight: normal;
     height: relative;
+}
+
+/* -------------------chat button-------------------- */
+div form input[type=button]
+{
+    background-color: #007a87;
+    border: none;
+    color: white;
+    font-family: Changa;
+    font-size: 1.2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: .8;
 }
 
 /* -------------------Game List---------------------- */
