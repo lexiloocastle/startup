@@ -8,25 +8,24 @@ div.header-container
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 90%;
+    text-align: center;
+    width: 100%;
 }
 
-header img 
+div.header-container img 
 {
-    width: 300px;
+    width: 23%;
     height: auto;
 }
 
-header h1
+div.header-container h1
 {
     font-family: "Changa";
     font-weight: 500;
     letter-spacing: 8px;
     text-shadow: 5px 5px 0px rgba(63,107,169, 0.5);
-    flex-grow: 1;
-    text-align: center;
-    justify-content: center;
-    font-size: 8rem;
+    padding-left:4vw;
+    font-size: 8.6vw;
     line-height: 1;
 }
 
@@ -68,7 +67,7 @@ header form
     background-color: #007a87;
 }
   
-@media screen and (max-width: 500px) 
+@media screen and (max-width: 840px) 
 {
     menu a 
     {
@@ -80,11 +79,11 @@ header form
 /* -------------------Search Bars-------------------- */
 header form input
 {
-    height: 35px;
-    width: 300px;
+    height: 5vh;
+    width: 50vh;
     text-align: center;
     font-family: Changa;
-    font-size: 1.5rem;
+    font-size: 3.5vh;
     border-radius:10px;
     border: 3px solid #b23a00;
 }
@@ -108,11 +107,9 @@ div div.game-database
     justify-content: center;
     align-items: center;
 }
-p.game
+div.game
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
 }
 
 .game 
