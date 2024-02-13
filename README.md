@@ -76,6 +76,19 @@ When you're planning a game night, or a party where games will be played, it can
                 + games/images on index.html, my_account.html (my list), other_user.html (user so and so's list)
         + 10% WebSocket data placeholder showing where realtime communication will go
                 + chat button on other_user.html
+
+## CSS
+        + 30% Header, footer, and main content body
+        
+        + 20% Navigation elements
+        
+        + 10% Responsive to window resizing
+        
+        + 20% Application elements
+        
+        + 10% Application text content
+        
+        + 10% Application images
                 
 ## Use of Technologies
         Authentication: Users will create usernames and logins. They will use those to login when they use the website/app.
