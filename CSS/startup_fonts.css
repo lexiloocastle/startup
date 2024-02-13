@@ -1,0 +1,106 @@
+
+/* ----------------------------------------------------- */
+                    /* Dyslexic */
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('../fonts/OpenDyslexic-Bold.otf') format('opentype');
+        font-weight: bold;
+        font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('../fonts/OpenDyslexic-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('../fonts/OpenDyslexic-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face
+{
+    font-family: 'Dyslexic';
+    src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----------------------------------------------------- */
+                    /* Graphica */
+
+@font-face
+{
+    font-family: 'Graphica';
+    src: url('../fonts/TypoGraphica_demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ----------------------------------------------------- */
+                    /* Changa */
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-Medium.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/static/Changa-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Changa';
+    src: url('../fonts/Changa/Changa-VariableFont_eght.ttf') format('truetype');
+    font-weight: inherit;
+    font-style: normal;
+}
+
