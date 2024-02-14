@@ -3,12 +3,6 @@
 
 
 /* -------------------Header---------------------- */
-/* div div.header-container
-{
-    background-image: url('../photos/landscape_of_games_horizontal.jpg');
-} */
-
-
 
 /* ---container for title and logo--- */
 div.header-container
@@ -32,12 +26,13 @@ div.header-container h1
 {
     font-family: "Changa";
     font-weight: 500;
-    letter-spacing: 8px;
-    text-shadow: 5px 5px 0px rgba(63,107,169, 0.5);
+    letter-spacing: 1vw;
+    text-shadow: .25vw .25vw 0px rgba(63,107,169, 0.5);
     padding-left:4vw;
     font-size: 8.6vw;
     line-height: 1;
 }
+
 
 
 /* -------------------menu----------------------- */
@@ -71,14 +66,19 @@ div.header-container h1
     background-color: #007a87;
 }
   
-/* @media screen and (max-width: 840px) 
+@media screen and (max-width: 840px) 
 {
-    menu a 
+
+nav menu.top-menu
+{
+    width: 100vw;
+}
+    /* menu a 
     {
       float: none;
       display: block;
-    }
-} */
+    } */
+}
 
 /* -------------------Search Bars-------------------- */
 header form input
@@ -89,7 +89,7 @@ header form input
     font-family: Changa;
     font-size: 3.5vh;
     border-radius:10px;
-    border: 3px solid #b23a00;
+    border: .5vh solid #b23a00;
 }
 
 header form
@@ -121,7 +121,7 @@ h2.game-title
     text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
 }
 
-/* ---alignment of grig--- */
+/* ---alignment of grid--- */
 div div.game-database
 {
     display: flex;

@@ -1,0 +1,121 @@
+@import url("../CSS/startup_fonts.css");
+
+@media screen and (max-width: 840px) 
+{
+div div.header-container
+{
+    background-image: url('../photos/landscape_of_games_horizontal.jpg');
+    background-size: cover;
+}
+
+div.header-container img 
+{
+    display: none;
+}
+
+div.header-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+div.header-container h1
+{
+    font-family: "Changa";
+    font-weight: 500;
+    letter-spacing: 1vw;
+    text-shadow: .5vw .5vw 0px rgba(0, 0, 0, 0.5);
+    padding-left:4vw;
+    font-size: 8.6vw;
+    line-height: 1;
+    color: #fec82b
+}
+
+
+
+/* -------------------Game List---------------------- */
+h2.game-title
+{
+    font-family: "Dyslexic";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: .5;
+    text-align: center;
+    color:black;
+    border-radius: 10px;
+    text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
+}
+
+/* ---alignment of grid--- */
+div div.game-database
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---individual game container--- */
+.game 
+{
+    position: relative;
+    display: inline-block; 
+    margin: 30px;
+    background-color: #fec82b;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(172, 179, 189);
+}
+ 
+/* ---add to list button--- */
+div.game-display 
+{
+    position: relative; 
+    display: inline-block; 
+}
+
+.list-button 
+{
+    position: absolute;
+    font-size: 3rem;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 78.5%;
+    left: 78%; 
+    height: 50px;
+    width: 50px;
+    background-color: #01a8ba; 
+    opacity: .9;
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+}
+
+.list-button:hover
+{
+    background-color: #007a87;
+
+}
+
+/* ---game images--- */
+img.game-img 
+{
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+}
