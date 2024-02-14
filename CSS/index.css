@@ -11,7 +11,7 @@ div.header-container
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    width: 100%;
+  
 }
 
 /* ---logo--- */
@@ -39,7 +39,7 @@ div.header-container h1
 .top-menu 
 {
     font-family: "Dyslexic";
-    width: 100%;
+    
     background-color: #e54f03;
     overflow: auto;
     border-top:10px ridge #007a87;
@@ -55,10 +55,10 @@ div.header-container h1
 }
 nav menu a 
 {
-    float: left;
-    /* line-height: 3; */
+    display: inline-flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
     padding: 1%;
     color: white;
     text-decoration: none;
@@ -68,20 +68,6 @@ nav menu a
 .top-menu a:hover 
 {
     background-color: #007a87;
-}
-  
-@media screen and (max-width: 840px) 
-{
-
-nav menu.top-menu
-{
-    width: 100vw;
-}
-    /* menu a 
-    {
-      float: none;
-      display: block;
-    } */
 }
 
 /* -------------------Search Bars-------------------- */
@@ -193,6 +179,7 @@ img.game-img
 footer
 {
     background-color: #b23a00;
+    margin-bottom: 0;
 }
 
 /* ---github link--- */
