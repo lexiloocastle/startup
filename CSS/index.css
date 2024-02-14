@@ -3,6 +3,14 @@
 
 
 /* -------------------Header---------------------- */
+/* div div.header-container
+{
+    background-image: url('../photos/landscape_of_games_horizontal.jpg');
+} */
+
+
+
+/* ---container for title and logo--- */
 div.header-container
 {
     display: flex;
@@ -12,12 +20,14 @@ div.header-container
     width: 100%;
 }
 
+/* ---logo--- */
 div.header-container img 
 {
     width: 23%;
     height: auto;
 }
 
+/* ---title--- */
 div.header-container h1
 {
     font-family: "Changa";
@@ -29,12 +39,7 @@ div.header-container h1
     line-height: 1;
 }
 
-header form
-{
-    flex-grow: 1;
-    text-align: center;
-    justify-content: center;
-}
+
 /* -------------------menu----------------------- */
 .top-menu 
 {
@@ -44,22 +49,21 @@ header form
     overflow: auto;
     border-top:10px ridge #007a87;
     border-bottom:10px ridge #007a87;
-    
+    margin-top: 0;
 }
   
-/* ----Navbar links---- */
+/* ---Navbar links--- */
   
 .top-menu a 
 {
-    float: left;
-    margin-left: 10px;
+    float: none;
+    line-height: 3;
     text-align: center;
     justify-content: center;
-    padding: 12px;
+    padding: 1%;
     color: white;
     text-decoration: none;
-    font-size: 17px;
-   
+    font-size: 1.2vw;
 }
   
 .top-menu a:hover 
@@ -67,14 +71,14 @@ header form
     background-color: #007a87;
 }
   
-@media screen and (max-width: 840px) 
+/* @media screen and (max-width: 840px) 
 {
     menu a 
     {
       float: none;
       display: block;
     }
-}
+} */
 
 /* -------------------Search Bars-------------------- */
 header form input
@@ -86,6 +90,22 @@ header form input
     font-size: 3.5vh;
     border-radius:10px;
     border: 3px solid #b23a00;
+}
+
+header form
+{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 840px) 
+{
+    header form 
+    {
+      float: none;
+      display: block;
+    }
 }
 
 /* -------------------Game List---------------------- */
@@ -101,17 +121,15 @@ h2.game-title
     text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
 }
 
+/* ---alignment of grig--- */
 div div.game-database
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-div.game
-{
-    box-sizing: border-box;
-}
 
+/* ---individual game container--- */
 .game 
 {
     position: relative;
@@ -123,21 +141,11 @@ div.game
     box-shadow: 3px 3px 3px rgb(172, 179, 189);
 }
  
+/* ---add to list button--- */
 div.game-display 
 {
     position: relative; 
     display: inline-block; 
-}
-
-img.game-img 
-{
-    /* display: block; Ensures there's no extra space under the image */
-    width: 300px; /* Optional: makes the image fit the container's width */
-    height: 300px; /* Maintains the aspect ratio of the image */
-    object-fit: cover;
-    padding: 10px;
-    border-radius: 20px;
-    margin-bottom: 15px;
 }
 
 .list-button 
@@ -165,6 +173,17 @@ img.game-img
 
 }
 
+/* ---game images--- */
+img.game-img 
+{
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
 /* --------------------Footer-------------------- */
 
 footer
@@ -172,16 +191,18 @@ footer
     background-color: #b23a00;
 }
 
+/* ---github link--- */
 footer a
 {
     display: flex;
     justify-content: center;
-    font-size: 1.7rem;
+    font-size: 1.7vw;
     text-decoration: none;
     font-family: Changa;
     font-weight: semi-bold;
     transform: scaleX(1.25);
     color: white;
+    margin-bottom: 0;
 }
 
 
