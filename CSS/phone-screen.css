@@ -56,6 +56,50 @@ div div.game-database
     display: inline;
 }
 
+h2.game-title
+{
+    font-size: 1.8rem;
+    line-height: .5;
+    color:black;
+    text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
+}
+
+.game 
+{   
+    border-radius: 10px;
+}
+
+/* ---game images--- */
+img.game-img 
+{
+    width: 250px; 
+    height: 250px; 
+    padding: 5px;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+.list-button 
+{
+    font-size: 2.1rem;
+    border-radius: 10px;
+    bottom: 78.5%;
+    left: 78%; 
+    height: 40px;
+    width: 40px;
+    background-color: #fff; 
+    opacity: .9;
+    color: #01636e;
+    border: none;
+    cursor: pointer;
+}
+
+.list-button:hover
+{
+    background-color: #007a87;
+    color: #fff; 
+}
+
 header form input
 {
     height: 2.5vh;
