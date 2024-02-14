@@ -2,6 +2,12 @@
 
 @media screen and (max-width: 840px) 
 {
+
+/* body
+{
+    background-image: url('../photos/2.png');
+} */
+
 div div.header-container
 {
     background-image: url('../photos/landscape_of_games_horizontal.jpg');
@@ -138,4 +144,13 @@ footer a
 
 
 
+}
+
+@media screen and (max-width: 840px) 
+{
+    header form 
+    {
+      float: none;
+      display: block;
+    }
 }

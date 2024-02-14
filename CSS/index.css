@@ -1,6 +1,6 @@
 
 @import url("../CSS/startup_fonts.css");
-
+@import url("../CSS/index-phone-screen.css");
 
 /* -------------------Header---------------------- */
 
@@ -11,7 +11,6 @@ div.header-container
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-  
 }
 
 /* ---logo--- */
@@ -33,22 +32,17 @@ div.header-container h1
     line-height: 1;
 }
 
-
-
 /* -------------------menu----------------------- */
 .top-menu 
 {
     font-family: "Dyslexic";
-    
     background-color: #e54f03;
-    overflow: auto;
     border-top:10px ridge #007a87;
     border-bottom:10px ridge #007a87;
     margin-top: 0;
 }
   
 /* ---Navbar links--- */
-  
 .top-menu button
 {
     display: none;
@@ -89,27 +83,7 @@ header form
     justify-content: center;
 }
 
-@media screen and (max-width: 840px) 
-{
-    header form 
-    {
-      float: none;
-      display: block;
-    }
-}
-
 /* -------------------Game List---------------------- */
-h2.game-title
-{
-    font-family: "Dyslexic";
-    font-weight: bold;
-    font-size: 2rem;
-    line-height: .5;
-    text-align: center;
-    color:black;
-    border-radius: 10px;
-    text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
-}
 
 /* ---alignment of grid--- */
 div div.game-database
@@ -124,11 +98,33 @@ div div.game-database
 {
     position: relative;
     display: inline-block; 
-    margin: 30px;
+    margin: 2%;
     background-color: #fec82b;
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: .5% 1.5%;
+    border-radius: 3%;
     box-shadow: 3px 3px 3px rgb(172, 179, 189);
+}
+
+h2.game-title
+{
+    font-family: "Dyslexic";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: .5;
+    text-align: center;
+    color:black;
+    text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
+}
+
+/* ---game images--- */
+img.game-img 
+{
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 5%;
 }
  
 /* ---add to list button--- */
@@ -161,17 +157,6 @@ div.game-display
 {
     background-color: #007a87;
 
-}
-
-/* ---game images--- */
-img.game-img 
-{
-    width: 300px; 
-    height: 300px; 
-    object-fit: cover;
-    padding: 10px;
-    border-radius: 10%;
-    margin-bottom: 5%;
 }
 
 /* --------------------Footer-------------------- */
