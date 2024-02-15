@@ -32,6 +32,8 @@ div.header-container h1
     line-height: 1;
 }
 
+
+
 /* -------------------menu----------------------- */
 .top-menu 
 {
@@ -86,7 +88,7 @@ header form
 /* -------------------Game List---------------------- */
 
 /* ---alignment of grid--- */
-div div.game-database
+div.game-database
 {
     display: flex;
     justify-content: center;
@@ -116,16 +118,8 @@ h2.game-title
     text-shadow: 1.5px 1px 2px rgb(144, 150, 157);
 }
 
-/* ---game images--- */
-img.game-img 
-{
-    width: 300px; 
-    height: 300px; 
-    object-fit: cover;
-    padding: 10px;
-    border-radius: 10%;
-    margin-bottom: 5%;
-}
+
+
  
 /* ---add to list button--- */
 div.game-display 
@@ -157,6 +151,17 @@ div.game-display
 {
     background-color: #007a87;
 
+}
+
+/* ---game images--- */
+img.game-img 
+{
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10%;
+    margin-bottom: 5%;
 }
 
 /* --------------------Footer-------------------- */

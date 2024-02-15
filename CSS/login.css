@@ -5,12 +5,12 @@ div.header-container
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 90%;
+    text-align: center;
 }
 
 header img 
 {
-    width: 300px;
+    width: 23%;
     height: auto;
 }
 
@@ -18,12 +18,10 @@ header h1
 {
     font-family: "Changa";
     font-weight: 500;
-    letter-spacing: 8px;
-    text-shadow: 5px 5px 0px rgba(63,107,169, 0.5);
-    flex-grow: 1;
-    text-align: center;
-    justify-content: center;
-    font-size: 8rem;
+    letter-spacing: 1vw;
+    text-shadow: .25vw .25vw 0px rgba(63,107,169, 0.5);
+    padding-left:4vw;
+    font-size: 8.6vw;
     line-height: 1;
 }
 
@@ -39,24 +37,23 @@ header form
 /* -------------------menu----------------------- */
 .top-menu 
 {
-    width: 100%;
+    font-family: "Dyslexic";
     background-color: #e54f03;
-    overflow: auto;
     border-top:10px ridge #007a87;
     border-bottom:10px ridge #007a87;
-    font-family: "Dyslexic";
+    margin-top: 0;
 }
   
-.top-menu a , .top-menu input
+nav menu a
 {
-    float: left;
-    margin-left: 10px;
+    display: inline-flex;
     text-align: center;
     justify-content: center;
-    padding: 12px;
+    align-items: center;
+    padding: 1%;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2vw;
 }
 
 .top-menu a:hover 
