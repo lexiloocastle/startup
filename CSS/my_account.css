@@ -2,6 +2,11 @@
 
 
 /* -------------------Header---------------------- */
+html
+{
+    overflow-x: hidden;
+}
+
 div.header-container
 {
     display: flex;
@@ -134,14 +139,24 @@ div div.my-list
 
 .game 
 {
-    position: relative;
-    display: inline-block; 
+    /* position: relative;
+    display: inline-block;  */
     margin: 2%;
     background-color: #fec82b;
     padding: .5% 1.5%;
     border-radius: 3%;
     box-shadow: 3px 3px 3px rgb(172, 179, 189);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
+
+/* .game-display
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 h2.game-title
 {
@@ -163,27 +178,28 @@ img.game-img
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 10px;
+    position: relative;
 }
-
-
 
 .list-button 
 {
-    position: absolute;
-    font-size: 3rem;
-    border-radius: 10px;
-    display: inline-flex;
+    position: relative;
+    font-size: 1.5vw;
+    display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 78.5%;
-    left: 78%; 
-    height: 50px;
-    width: 50px;
     background-color: #01a8ba; 
     opacity: .9;
     color: #fff; 
     border: none;
     cursor: pointer;
+    /* top: 10%; */
+    font-family: Changa;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    margin-left: 20%;
+    /* height: 10%;
+    width: 60%; */
 }
 
 div button.list-button:hover
