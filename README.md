@@ -79,16 +79,22 @@ When you're planning a game night, or a party where games will be played, it can
 
 ## CSS
         + 30% Header, footer, and main content body
+                + 
         
         + 20% Navigation elements
+                + links to all pages are in the nav bar on each page (at a certain point, some of these links will be taken off the nav bar and be accessed                         through other pages.
         
         + 10% Responsive to window resizing
+                + Still working on this, some elements are responsive and some are not
         
         + 20% Application elements
+                + lots of buttons, search bars, nav bar, containers for the game elements
         
         + 10% Application text content
+                + text is really just the headers and on the links, no other text is neccesary
         
         + 10% Application images
+                + Home, My Account and Other User all have images as placeholders for games that will be added to the database and can be added to a users list
                 
 ## Use of Technologies
         Authentication: Users will create usernames and logins. They will use those to login when they use the website/app.
