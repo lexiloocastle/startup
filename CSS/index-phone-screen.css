@@ -59,7 +59,8 @@ nav menu a
 
 div div.game-database
 {
-    display: inline;
+    display: grid;
+    text-align: center;
 }
 
 h2.game-title
@@ -142,15 +143,4 @@ footer a
     margin-bottom: 0;
 }
 
-
-
-}
-
-@media screen and (max-width: 840px) 
-{
-    header form 
-    {
-      float: none;
-      display: block;
-    }
 }

@@ -139,24 +139,12 @@ div div.my-list
 
 .game 
 {
-    /* position: relative;
-    display: inline-block;  */
     margin: 2%;
     background-color: #fec82b;
     padding: .5% 1.5%;
     border-radius: 3%;
     box-shadow: 3px 3px 3px rgb(172, 179, 189);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
-
-/* .game-display
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 h2.game-title
 {
@@ -171,9 +159,8 @@ h2.game-title
   
 img.game-img 
 {
-    /* display: block; Ensures there's no extra space under the image */
-    width: 300px; /* Optional: makes the image fit the container's width */
-    height: 300px; /* Maintains the aspect ratio of the image */
+    width: 300px; 
+    height: 300px; 
     object-fit: cover;
     padding: 10px;
     border-radius: 20px;
@@ -183,7 +170,7 @@ img.game-img
 
 .list-button 
 {
-    position: relative;
+    /* position: relative;
     font-size: 1.5vw;
     display: flex;
     justify-content: center;
@@ -193,13 +180,25 @@ img.game-img
     color: #fff; 
     border: none;
     cursor: pointer;
-    /* top: 10%; */
     font-family: Changa;
-    /* padding-left: 10%;
-    padding-right: 10%; */
-    margin-left: 20%;
-    /* height: 10%;
-    width: 60%; */
+    margin-left: 20%; */
+    
+    position: relative;
+    font-family: Changa;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50%;
+    left: 30px; /* Centers the button horizontally */
+    height: 40px;
+    width: 260px;
+    background-color: #01a8ba; /* Example background color */
+    opacity: .9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 div button.list-button:hover
